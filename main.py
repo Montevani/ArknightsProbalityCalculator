@@ -34,21 +34,35 @@ while True:
   except ValueError:
     print("So far we only had banners with 1 or 2 featured 6* operators.")
 
-succ = 0.02/(feat+1)
+loop = 0
+cdfa = cdfl = cdff =  1
+rollNumber = last
 
-if nrolls+last > 99:
-    cdfa=100
-    #cdff
+for rolls in range(nrolls):
+  rollNumber=rollNumber+1
 
-elif 98 > (nrolls+last) > 50:
-    #cdfa=100
-    #cdff=50+25+12.5+...
+  if rollNumber <= 49:
+    cdfa = cdfa*0.98
+    #cdfl = cdfl*0.993
+  elif 50 <= rollNumber <= 99:
+    cdfa = cdfa*(1-((rollNumber-49)*0.02))
+    #cdfl = cdfl*(1-((rollNumber-49)*0.007))
+  
+  if rollNumber == 99:
+    rollNumber = 0
+    loop = loop +1
 
-else:
-    cdfa = (1-math.exp(-0.02*nrolls))*100
-    cdff = (1-math.exp(-succ*nrolls))*100
-    
+faill = (1-0.35)**loop
+failf = (1-0.5/feat)**loop
 
+totalfaill = faill #multiplica algo que faz no roll 99 ser 0.65 e no 1 ser 0.993
+totalfailf = failf #multiplica algo que faz no roll 99 ser 0.75 e no 1 ser 0.995
 
-print("\nYour chances of getting any 6* character is {:.2f}%".format(cdfa))
-print("and your chances of getting a featured 6* character is {:.2f}%".format(cdff))
+cdfl = 1-totalfaill
+cdff = 1-totalfailf
+cdfa = 1-cdfa
+
+print("\nHere are your chances of getting:")
+print("Any 6* operator: {:.2f}%".format(cdfa*100))
+print("A specific 6* operator: {:.2f}%".format(cdff*100))
+print("A specific limited 6* operator: {:.2f}%".format(cdfl*100))
