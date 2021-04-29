@@ -55,8 +55,8 @@ for rolls in range(nrolls):
 faill = (1-0.35)**loop
 failf = (1-0.5/feat)**loop
 
-totalfaill = faill #multiplica algo que faz no roll 99 ser 0.65 e no 1 ser 0.993
-totalfailf = failf #multiplica algo que faz no roll 99 ser 0.75 e no 1 ser 0.995
+totalfaill = faill*(1-((1-cdfa)*(0.35))) #multiplica algo que faz no roll 99 ser 0.65 e no 1 ser 0.993 ((1-0.98)*(x))=(1-0.993)
+totalfailf = failf*(1-((1-cdfa)*(0.5/feat))) #multiplica algo que faz no roll 99 ser 0.75 e no 1 ser 0.995
 
 cdfl = 1-totalfaill
 cdff = 1-totalfailf
