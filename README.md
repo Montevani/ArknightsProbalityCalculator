@@ -2,7 +2,7 @@
 What are your odds of getting a rate-up 6* operator on your next roll?
 
 <p align="center">
-  <img width="470" height="200" src="https://github.com/Montevani/ArknightsProbalityCalculator/blob/main/ArkLogo.jpg">
+  <img width="640" height="270" src="https://github.com/Montevani/ArknightsProbalityCalculator/blob/main/ArkLogo.jpg">
 </p>
 
 ### Arknights?
