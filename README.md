@@ -2,7 +2,7 @@
 What are your odds of getting a rate-up 6* operator on your next roll?
 
 <p align="center">
-  <img width="640" height="270" src="https://github.com/Montevani/ArknightsProbalityCalculator/blob/main/ArkLogo.jpg">
+  <img width="640" height="270" src="https://github.com/Montevani/ArknightsProbalityCalculator/blob/main/pictures/ArkLogo.jpg">
 </p>
 
 ### Arknights?
@@ -21,16 +21,19 @@ For **limited banners** your chances of getting a specific featured 6 stars is: 
 
 Arknights has a second mechanic to ensure that even the unluckiest doctor will get at least a single 6* operator after enough rolls: The pity rate!
 After 50 attempts without a single 6* operators your odds will start to **increase by 2% every attempt until you get a 6*** operator. After getting a 6* operator your odds will go back to the regular 2% and will only start increasing again after 50 unlucky rolls.
-For example, your odds of getting a 6* operator on your first 50 rolls are 2% on each roll. If you didn't get a single 6* so far your chances will increase to 4% on your 51th roll, on roll 52 it'll be 6% and so on until you reach roll 99 where your chances will have increased all the way to 100%.
+For example, your odds of getting a 6* operator on your first 50 rolls are 2% on each roll. If you didn't get a single 6* so far your chances will increase to 4% on your 51th roll, on roll 52 it'll be 6% and so on until you reach roll 99 where your chances will have increased all the way to 100%.  
 
 <p align="center">
-  <img width="640" height="200" src="https://github.com/Montevani/ArknightsProbalityCalculator/blob/main/Banner.jpg">
-</p>
-
+  <img width="640" height="200" src="https://github.com/Montevani/ArknightsProbalityCalculator/blob/main/pictures/Banner.jpg">
+</p>  
 
 ### How does this calculator works?
-Calculating your odds of getting a 6* operator without the pity rate (first 50 rolls) is quite simple. Let's say you want to know your odds for **n** attempts. All you have to do is calculate your chances of not getting a single 6* operator in **n** attempts consecutively and subtract it from 100%:
-
-[Example here]
-
+Calculating your odds of getting a 6* operator without the pity rate (first 50 rolls) is quite simple. Let's say you want to know your odds for **n** attempts. All you have to do is calculate your chances of not getting a single 6* operator in **n** attempts consecutively and subtract it from 100%:  
+<p align="center">
+  <img width="200" height="20" src="https://github.com/Montevani/ArknightsProbalityCalculator/blob/main/pictures/Eq1.jpg">
+</p>  
+For example. Your chances of getting Rosmontis from the last limited banner with your 10 free rolls is:  
+<p align="center">
+  <img width="415" height="20" src="https://github.com/Montevani/ArknightsProbalityCalculator/blob/main/pictures/Eq2.jpg">
+</p>  
 Things get more complicated after the introduction of the pity rate.
