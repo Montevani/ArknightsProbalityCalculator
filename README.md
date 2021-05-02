@@ -22,7 +22,8 @@ For **limited banners** your chances of getting a specific featured 6 stars is: 
 
 Arknights has a second mechanic to ensure that even the unluckiest doctor will get at least a single 6* operator after enough rolls: The pity rate!
 After 50 attempts without a single 6* operators your odds will start to **increase by 2% every attempt until you get a 6*** operator. After getting a 6* operator your odds will go back to the regular 2% and will only start increasing again after 50 unlucky rolls.
-For example, your odds of getting a 6* operator on your first 50 rolls are 2% on each roll. If you didn't get a single 6* so far your chances will increase to 4% on your 51th roll, on roll 52 it'll be 6% and so on until you reach roll 99 where your chances will have increased all the way to 100%.
+For example, your odds of getting a 6* operator on your first 50 rolls are 2% on each roll. If you didn't get a single 6* so far your chances will increase to 4% on your 51th roll, on roll 52 it'll be 6% and so on until you reach roll 99 where your chances will have increased all the way to 100%.  
+Your **pity rate is shared across all standard banners** but is unique for limited banners. So, if you roll 20 times on today's standard banner you'll be on roll 21 on next month's standard banner. But if you rolled 40 times on today's banner or on W's limited banner you'll still be on roll 0 on Rosmonti's limited banner. Keep that in mind when deciding when or on what to roll.
 
 <p align="center">
   <img width="640" height="200" src="https://github.com/Montevani/ArknightsProbalityCalculator/blob/main/pictures/Banner.jpg">
