@@ -35,8 +35,19 @@ Calculating your odds of getting a 6* operator without the pity rate (first 50 r
 <p align="center">
   <img width="200" height="20" src="https://github.com/Montevani/ArknightsProbalityCalculator/blob/main/pictures/Eq1.jpg">
 </p>
-For example. Your chances of getting Rosmontis from the last limited banner with your 10 free rolls is:  
+For example, your chances of getting Rosmontis from the last limited banner with your 10 free rolls would be:  
 <p align="center">
   <img width="415" height="20" src="https://github.com/Montevani/ArknightsProbalityCalculator/blob/main/pictures/Eq2.jpg">
-</p>  
-Things get more complicated after the introduction of the pity rate.
+</p>
+Similarly your chances of getting Mudrock (the other featured 6* operator) would also be 6.78% and your chances of getting a random 6* operator would be 5.84%.
+
+Things get more complicated after the the pity rate. The function that would describe your chances of getting a 6* operator taking it into account would be:
+<p align="center">
+  <img width="580" height="90" src="https://github.com/Montevani/ArknightsProbalityCalculator/blob/main/pictures/Eq3.jpg">
+</p>
+Where **n** is the number of rolls you're planning to attempt, **r** is the number of the current roll and **rate** is your chance of getting your target operator.  
+For example, your chances of getting a specific operator in a limited banner after 60 rolls and starting from roll 0 would be:
+<p align="center">
+  <img width="580" height="90" src="https://github.com/Montevani/ArknightsProbalityCalculator/blob/main/pictures/Eq4.jpg">
+</p>
+But there's a proble...!
