@@ -6,14 +6,31 @@ What are your odds of getting a rate-up 6* operator on your next roll?
 </p>
 
 ### Arknights?
-Arknights is a Chinese tower defense mobile game developed by Studio Montagne and Hypergryph and published by Yostar and Hypergryph. In the game players can use in-game currency to randomly obtain new characters (operators) through a gacha system, a game mechanic similar to slot machines. Characters are ranked by their rarity and strength, with 6* operators being the most rare and usually the most powerful.
+If you're here you probably already knows what Arknights is but just in case: Arknights is a Chinese tower defense mobile game developed by Studio Montagne and Hypergryph and published by Yostar and Hypergryph. In the game players can use in-game currency to randomly obtain new characters (operators) through a gacha system, a game mechanic similar to slot machines and roulette wheels. Characters are ranked by their rarity and strength, with 6* operators being the most rare and usually the most powerful.
 
 ### What are the odds for a single pull?
-It depends on the banner:
+It depends on the banner. So far Arknights had 3 different types of banner:
+Standard banners with a single featured operator, standard banners with two featured operators and limited banners with two featured operators.
+**The odds of getting a 6 stars operator is always 2%** across all 3 types of banner but the chances of getting the featured operators are different for each banner:
+For standard banners there's a 50% chance that any 6* operator you get will be one of the featured characters. That chance is increased to 70% in limited banners. If more than a single character is featured on the banner the rate-up is equally shared between the two (although we're still not 100% sure about that. It needs more testing).
+In other words:
+
+For **standard banners with a SINGLE rate-up operator** your chances of getting a specific featured 6 stars is: ***1%***  
+For **standard banners with a TWO rate-up operators** your chances of getting a specific featured 6 stars is: ***0.5%***  
+For **limited banners** your chances of getting a specific featured 6 stars is: ***0.7%***  
+
+Arknights has a second mechanic to ensure that even the unluckiest doctor will get at least a single 6* operator after enough rolls: The pity rate!
+After 50 attempts without a single 6* operators your odds will start to **increase by 2% every attempt until you get a 6*** operator. After getting a 6* operator your odds will go back to the regular 2% and will only start increasing again after 50 unlucky rolls.
+For example, your odds of getting a 6* operator on your first 50 rolls are 2% on each roll. If you didn't get a single 6* so far your chances will increase to 4% on your 51th roll, on roll 52 it'll be 6% and so on until you reach roll 99 where your chances will have increased all the way to 100%.
 
 <p align="center">
   <img width="640" height="200" src="https://github.com/Montevani/ArknightsProbalityCalculator/blob/main/Banner.jpg">
 </p>
 
+
 ### How does this calculator works?
-Magic.
+Calculating your odds of getting a 6* operator without the pity rate (first 50 rolls) is quite simple. Let's say you want to know your odds for **n** attempts. All you have to do is calculate your chances of not getting a single 6* operator in **n** attempts consecutively and subtract it from 100%:
+
+[Example here]
+
+Things get more complicated after the introduction of the pity rate.
