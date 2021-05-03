@@ -41,14 +41,15 @@ for rolls in range(nrolls):
     partial = 1
     loop = loop +1
 
-totalfaill = ((1-0.35)**loop)*(1-((1-partial)*(0.35)))
+
 totalfailf1 = ((1-0.5)**loop)*(1-((1-partial)*(0.5)))
 totalfailf2 = ((1-0.25)**loop)*(1-((1-partial)*(0.25)))
+totalfaill = ((1-0.35)**loop)*(1-((1-partial)*(0.35)))
 
-cdfl = 1-totalfaill
+cdfa = 1-cdfa
 cdff1 = 1-totalfailf1
 cdff2 = 1-totalfailf2
-cdfa = 1-cdfa
+cdfl = 1-totalfaill
 
 print("\nHere are your chances of getting:")
 print("- Any 6* operator: {:.4f}%".format(cdfa*100))
