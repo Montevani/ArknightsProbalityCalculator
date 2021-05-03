@@ -1,4 +1,4 @@
-# ArknightsProbalityCalculator
+# ArknightsProbalityCalculator (WiP)
 What are your odds of getting a rate-up 6* operator on your next roll?  
 After inputing how many times you plan to roll and when was the last time your got a 6* operator this program will calculate your chances of getting a 6* operator.
 
