@@ -1,11 +1,12 @@
 # ArknightsProbalityCalculator
-What are your odds of getting a rate-up 6* operator on your next roll?
+What are your odds of getting a rate-up 6* operator on your next roll?  
+After inputing how many times you plan to roll and when was the last time your got a 6* operator this program will calculate your chances of getting a 6* operator.
 
 <p align="center">
   <img width="640" height="270" src="https://github.com/Montevani/ArknightsProbalityCalculator/blob/main/pictures/ArkLogo.jpg">
 </p>
 
-### Arknights?
+### What is Arknights?
 If you're here you probably already knows what Arknights is but just in case: Arknights is a Chinese tower defense mobile game developed by Studio Montagne and Hypergryph and published by Yostar and Hypergryph. In the game players can use in-game currency to randomly obtain new characters (operators) through a gacha system, a game mechanic similar to slot machines and roulette wheels. Characters are ranked by their rarity and strength, with 6* operators being the most rare and usually the most powerful.
 
 ### What are the odds for a single pull?
@@ -23,17 +24,30 @@ Arknights has a second mechanic to ensure that even the unluckiest doctor will g
 After 50 attempts without a single 6* operators your odds will start to **increase by 2% every attempt until you get a 6*** operator. After getting a 6* operator your odds will go back to the regular 2% and will only start increasing again after 50 unlucky rolls.
 For example, your odds of getting a 6* operator on your first 50 rolls are 2% on each roll. If you didn't get a single 6* so far your chances will increase to 4% on your 51th roll, on roll 52 it'll be 6% and so on until you reach roll 99 where your chances will have increased all the way to 100%.  
 
+Your **pity rate is shared across all standard banners** but is unique for limited banners. So, if you roll 20 times on today's standard banner you'll be on roll 21 on next month's standard banner. But if you rolled 40 times on today's banner or on W's limited banner you'll still be on roll 0 on Rosmonti's limited banner. Keep that in mind when deciding when or on what to roll.
+
 <p align="center">
   <img width="640" height="200" src="https://github.com/Montevani/ArknightsProbalityCalculator/blob/main/pictures/Banner.jpg">
 </p>  
 
 ### How does this calculator works?
-Calculating your odds of getting a 6* operator without the pity rate (first 50 rolls) is quite simple. Let's say you want to know your odds for **n** attempts. All you have to do is calculate your chances of not getting a single 6* operator in **n** attempts consecutively and subtract it from 100%:  
+Calculating your odds of getting a 6* operator without the pity rate (first 50 rolls) is quite simple. Let's say you want to know your odds for **n** attempts. All you have to do is calculate your chances of not getting a single 6* operator in **n** attempts consecutively and subtract it from 100%:
 <p align="center">
   <img width="200" height="20" src="https://github.com/Montevani/ArknightsProbalityCalculator/blob/main/pictures/Eq1.jpg">
-</p>  
-For example. Your chances of getting Rosmontis from the last limited banner with your 10 free rolls is:  
+</p>
+For example, your chances of getting Rosmontis from the last limited banner with your 10 free rolls would be:  
 <p align="center">
   <img width="415" height="20" src="https://github.com/Montevani/ArknightsProbalityCalculator/blob/main/pictures/Eq2.jpg">
-</p>  
-Things get more complicated after the introduction of the pity rate.
+</p>
+Similarly your chances of getting Mudrock (the other featured 6* operator) would also be 6.78% and your chances of getting a random 6* operator would be 5.84%.
+
+Things get more complicated after the the pity rate. The function that would describe your chances of getting a 6* operator taking it into account would be:
+<p align="center">
+  <img width="580" height="90" src="https://github.com/Montevani/ArknightsProbalityCalculator/blob/main/pictures/Eq3.jpg">
+</p>
+Where **n** is the number of rolls you're planning to attempt, **r** is the number of the current roll and **rate** is your chance of getting your target operator.  
+For example, your chances of getting a specific operator in a limited banner after 60 rolls and starting from roll 0 would be:
+<p align="center">
+  <img width="580" height="90" src="https://github.com/Montevani/ArknightsProbalityCalculator/blob/main/pictures/Eq4.jpg">
+</p>
+But there's a proble...!
