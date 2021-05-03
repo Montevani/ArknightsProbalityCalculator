@@ -39,15 +39,22 @@ For example, your chances of getting Rosmontis from the last limited banner with
 <p align="center">
   <img width="415" height="20" src="https://github.com/Montevani/ArknightsProbalityCalculator/blob/main/pictures/Eq2.jpg">
 </p>
-Similarly your chances of getting Mudrock (the other featured 6* operator) would also be 6.78% and your chances of getting a random 6* operator would be 5.84%.
+Similarly your chances of getting Mudrock (the other featured 6* operator) would also be **6.78%** and your chances of getting a random 6* operator would be **5.84%**.
 
 Things get more complicated after the the pity rate. The function that would describe your chances of getting a 6* operator taking it into account would be:
 <p align="center">
-  <img width="580" height="90" src="https://github.com/Montevani/ArknightsProbalityCalculator/blob/main/pictures/Eq3.jpg">
-</p>
-Where **n** is the number of rolls you're planning to attempt, **r** is the number of the current roll and **rate** is your chance of getting your target operator.  
+  <img width="655" height="95" src="https://github.com/Montevani/ArknightsProbalityCalculator/blob/main/pictures/Eq3.jpg">
+</p>  
+Where n is the number of rolls you're planning to attempt, r is the number of the current roll and rate is your chance of getting your target operator.  
 For example, your chances of getting a specific operator in a limited banner after 60 rolls and starting from roll 0 would be:
 <p align="center">
-  <img width="580" height="90" src="https://github.com/Montevani/ArknightsProbalityCalculator/blob/main/pictures/Eq4.jpg">
+  <img width="610" height="70" src="https://github.com/Montevani/ArknightsProbalityCalculator/blob/main/pictures/Eq4.jpg">
 </p>
-But there's a proble...!
+
+### But there's a problem...!
+As we already know the pity rate resets immediately after the player manages to roll a 6* operator and unfortunately that last equation doesn't take that into consideration. Imagine two players are going to roll exactly 80 times on a standard banner with a single rate-up 6*. If the first player manages to get a 6* on their 40th roll and the second player takes 80 rolls to get a 6* their chances of getting their target operator are going to be:
+
+
+### Graphs!
+
+(insert graphs here)
